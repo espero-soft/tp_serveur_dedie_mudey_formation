@@ -1,0 +1,30 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-group{
+  margin: 10px 0;
+}
+img{
+  max-width: 100%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+}
+footer a{
+  text-decoration: none;
+  color: inherit;
+}
+h5.card-title{
+  white-space: nowrap !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+p.card-text{
+  display: block;
+  white-space: nowrap !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

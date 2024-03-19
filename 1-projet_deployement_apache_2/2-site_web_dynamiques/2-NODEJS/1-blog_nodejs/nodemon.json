@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules/**/node_modules"],
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "ext": "js json twig",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "watch": ["views", "routes", "app.js", ".env"],
+    "delay": "2500",
+    "stdin": true,
+    "events": {
+      "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+    }
+  }
+  

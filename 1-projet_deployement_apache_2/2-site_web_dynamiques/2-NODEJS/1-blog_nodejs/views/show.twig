@@ -1,0 +1,24 @@
+{% include "partials/header.twig" %}
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="blog">
+        <div class="card ">
+          <img class="blog-img-top m-1" src="{{ blog.image }}" alt="blog image cap">
+        </div>
+        <div class="blog-body">
+          <h5 class="blog-title">{{ blog.title }}</h5>
+          <p class="blog-text">{{ blog.body | raw }}</p>
+          <p class="blog-text"><small class="text-muted">Posted on {{ blog.created|date('D M d Y') }}</small></p>
+          <a href="/blogs/{{ blog._id }}/edit" class="btn btn-primary">Edit</a>
+          <form action="/blogs/{{ blog._id }}?_method=DELETE" method="POST" id="delete">
+            <button type="submit" class="btn btn-danger">Delete post</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "partials/footer.twig" %}

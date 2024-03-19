@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Breadsticks Extra Mozzarella",
+        "description": "Comme le Breadsticks Mozzarella, avec en plus de la Mozzarella gratinée par-dessus! Servis avec une sauce au choix.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/breadsticks_extra_mozzarella.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Breadsticks Extra Mozzarella",
+        "description": "8 Bâtonnets de pâte à pizza garnis de mozzarella. Servis avec une délicieuse sauce au choix.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/breadsticks_mozzarella.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Chicken Wings Epicées",
+        "description": "Recette très épicée : 6 ailes de poulet marinées",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/chicken-wings-espicees.c61b12681491832f2bb805449f6e23cb.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Chicken Wings",
+        "description": "Recette originale : 6 ailes de poulet marinées.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/chicken-wings-originales.adc71ecdbff262d91f50fcdcd093f7c0.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Chicken Tasty",
+        "description": "4 Aiguillettes de poulet cuites au four, panées et assaisonnées d'épices. Servies avec une sauce au choix.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/chicken-tasty.e84565c9abe296ce73c2643c445662a5.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Potatoes",
+        "description": "Des Potatoes cuites au four. Servies avec une sauce au choix.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/potatoes.2f6d160172507ec0fb8d391a863c203d.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Chicken Croqs",
+        "description": "16 Bouchées Panées au Poulet. Servis avec une délicieuse sauce au choix.",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/chicken-croqs.f42cf4a6b9352ee0df213b17028a51dc.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Salade Caesar",
+        "description": "Salade verte, tomates fraîches, Poulet rôti et mariné, Parmigiano Reggiano AOP, tranche de pain à l’ail et une sauce Caesar",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/salade-caesar.3774efa52bbe1f08d63ae78a0f672b11.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    },
+    {
+        "name": "Salade Méditerranéenne",
+        "description": "Salade verte, tomates fraîches, champignons frais, Parmigiano Reggiano AOP, olives noires, tranche de pain à l’ail et vinaigrette balsamique",
+        "price": 2999,
+        "soldPrice": 999,
+        "category": "pizza enfant",
+        "image": "/assets/images/entrees/salade-mediterraneenne.3b6fc13c1ce0858aed50100f83e23c1c.1.jpg",
+        "options": [
+            {
+                "name": "Sauce Barbecue",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Sauce Curry",
+                "additonnalPrice": 0
+            },
+            {
+                "name": "Ketchup",
+                "additonnalPrice": 6
+            }
+        ]
+    }
+]
