@@ -1,0 +1,31 @@
+{% include "partials/header.twig" %}
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="blog">
+        <div class="blog-body">
+          <h1 class="blog-title">Edit {{ blog.title }}</h1>
+          <form action="/blogs/{{ blog._id }}?_method=PUT" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" class="form-control" id="title" name="blog[title]" value="{{ blog.title }}" required>
+            </div>
+            <div class="form-group">
+              <label for="image">Image</label>
+              <input type="file" class="form-control-file" id="image" name="image">
+              {% if blog.image %}
+              <img src="{{ blog.image }}" alt="Current Image" class="img-thumbnail mt-2" style="max-width: 300px;">
+              {% endif %}
+            </div>
+            <div class="form-group">
+              <label for="body">Blog Content</label>
+              <textarea class="form-control" id="body" name="blog[body]" rows="10" required>{{ blog.body }}</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include "partials/footer.twig" %}
