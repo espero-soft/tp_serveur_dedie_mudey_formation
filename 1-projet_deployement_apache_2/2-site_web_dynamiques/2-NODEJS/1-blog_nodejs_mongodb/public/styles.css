@@ -28,3 +28,9 @@ p.card-text{
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.btn,input, textarea,.card, img  {
+  border-radius: 0px !important;
+}
+.ckeditor-textarea {
+  min-height: 200px;
+}

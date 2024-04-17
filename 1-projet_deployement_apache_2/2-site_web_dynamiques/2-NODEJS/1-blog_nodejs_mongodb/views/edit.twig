@@ -1,10 +1,12 @@
 {% include "partials/header.twig" %}
-<div class="container mt-5">
+<script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+
+<div class="container my-5">
   <div class="row">
     <div class="col-md-8 offset-md-2">
       <div class="blog">
         <div class="blog-body">
-          <h1 class="blog-title">Edit {{ blog.title }}</h1>
+          <h1 class="blog-title">Edit :  {{ blog.title }}</h1>
           <form action="/blogs/{{ blog._id }}?_method=PUT" method="POST" enctype="multipart/form-data">
             <div class="form-group">
               <label for="title">Title</label>
@@ -12,16 +14,19 @@
             </div>
             <div class="form-group">
               <label for="image">Image</label>
-              <input type="file" class="form-control-file" id="image" name="image">
+              <input type="file" class="form-control" id="image" name="image">
               {% if blog.image %}
               <img src="{{ blog.image }}" alt="Current Image" class="img-thumbnail mt-2" style="max-width: 300px;">
               {% endif %}
             </div>
             <div class="form-group">
               <label for="body">Blog Content</label>
-              <textarea class="form-control" id="body" name="blog[body]" rows="10" required>{{ blog.body }}</textarea>
+              <textarea class="form-control ckeditor-textarea" id="body" name="blog[body]" rows="10">{{ blog.body }}</textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="d-flex gap-1">
+              <a href="/" class="btn btn-secondary mr-1">Cancel</a>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </form>
         </div>
       </div>
@@ -29,3 +34,12 @@
   </div>
 </div>
 {% include "partials/footer.twig" %}
+
+<script>
+  ClassicEditor
+    .create(document.querySelector('#body'))
+    .catch(error => {
+      console.error(error);
+    });
+</script>
+
